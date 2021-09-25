@@ -7,8 +7,8 @@
 
 
 // Write the function to find the findDigit obtained.
-var findDigit = function(num, nth){
-     //your code here
-  }
+var findDigit = function (num, nth) {
+  return (nth < 0) ? -1 : (num.toString().length < nth) ? 0 : parseInt(Math.abs(num).toString().split('').reverse().join('')[nth - 1])
+}
 
 //Use SpecRunner to check the Test Cases.

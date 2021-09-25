@@ -10,7 +10,7 @@
 
 
 // Write the function to find the getGrade obtained.
-function getGrade (s1, s2, s3) {
-   //your code here
-  }
+function getGrade(s1, s2, s3) {
+  return ((s1 + s2 + s3) / 3 >= 90 && (s1 + s2 + s3) / 3 <= 100) ? 'A' : ((s1 + s2 + s3) / 3 >= 80 && (s1 + s2 + s3) / 3 < 90) ? 'B' : ((s1 + s2 + s3) / 3 >= 70 && (s1 + s2 + s3) / 3 < 80) ? 'C' : ((s1 + s2 + s3) / 3 >= 60 && (s1 + s2 + s3) / 3 < 70) ? 'D' : 'F';
+}
 //Use SpecRunner to check the Test Cases.
